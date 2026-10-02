@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit session & secrets
+.streamlit/secrets.toml
+
+# PyTorch / Model checkpoints cache
+~/.cache/whisper/
+.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
